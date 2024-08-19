@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-heavy {
+    @apply font-normal; /* This ensures no other font weight conflicts */
+    font-family: "Agbalumo", system-ui;
+  }
+}
